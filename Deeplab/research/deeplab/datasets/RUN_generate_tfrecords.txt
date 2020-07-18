@@ -1,0 +1,39 @@
+FIRST REMEMBER TO CHANGE PATHS SET INSIDE FOR VAL.TXT TRAIN.TXT
+
+
+FOR STANDARD PASCAL DATASET:
+python remove_gt_colormap.py ^
+--original_gt_folder pascal_voc_seg/VOCdevkit/VOC2012/SegmentationClass ^
+--output_dir pascal_voc_seg/VOCdevkit/VOC2012/SegmentationClassRaw
+
+
+python build_voc2012_data.py ^
+--image_folder pascal_voc_seg/VOCdevkit/VOC2012/JPEGImages ^
+--semantic_segmentation_folder pascal_voc_seg/VOCdevkit/VOC2012/SegmentationClassRaw ^
+--list_folder pascal_voc_seg/VOCdevkit/VOC2012/ImageSets/Segmentation ^
+--output_dir pascal_voc_seg/tfrecord
+
+
+
+
+FOR PASCAL AUGMENTED DATASET:
+python build_voc2012_data.py ^
+--image_folder pascal_voc_seg_aug/VOC2012/JPEGImages ^
+--semantic_segmentation_folder pascal_voc_seg_aug/VOC2012/SegmentationClassAug ^
+--list_folder pascal_voc_seg_aug/VOC2012/ImageSets/Segmentation ^
+--output_dir pascal_voc_seg_aug/tfrecord
+
+
+FOR PASCAL PART DATASET:
+python build_voc2012_data.py ^
+--image_folder Dataset58parts/Immagini_png ^
+--semantic_segmentation_folder Dataset58parts/Ground_truth_parts/gray ^
+--list_folder Dataset58parts/ ^
+--output_dir Dataset58parts/tfrecord
+
+FOR PASCAL SPFTMAX DATASET:
+python build_voc2012_data.py ^
+--image_folder Dataset58parts/Immagini_png ^
+--semantic_segmentation_folder Dataset58parts/Ground_truth_21_classes/gray ^
+--list_folder Dataset58parts/ ^
+--output_dir Dataset58parts/tfrecord
