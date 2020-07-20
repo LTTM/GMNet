@@ -10,6 +10,8 @@ To tackle part-level ambiguity and localization we propose a novel adjacency gra
 
 The webpage of the paper is [here](https://lttm.dei.unipd.it/paper_data/GMNet/)
 
+The full paper can be downloaded from [here](https://lttm.dei.unipd.it/paper_data/GMNet/Michieli_2020_GMNet.pdf)
+
 The slides and the recordings of the presentation will be available soon.
 
 ![teaser](eccv_architecture.png)
@@ -200,6 +202,7 @@ If you use this repository or you find our work useful, please consider to cite:
 ## Acknowledgments
 
 Our code is derived from the [official Tensorflow implementation of the Deeplab v3](https://github.com/tensorflow/models/tree/master/research/deeplab).
+
 Remember to cite also their work if you use this code.
 
 ## License
