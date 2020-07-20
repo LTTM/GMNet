@@ -188,7 +188,7 @@ To visualize the part-level predictions, instead, the command is:
 1> VIS_58_parts.txt 2>&1 
 
 
-## Cite us
+## Cite the paper
 If you use this repository or you find our work useful, please consider to cite:
 
        @inProceedings{michieli2020gmnet,
@@ -202,6 +202,10 @@ If you use this repository or you find our work useful, please consider to cite:
 ## Acknowledgments
 
 Our code is derived from the [official Tensorflow implementation of the Deeplab v3](https://github.com/tensorflow/models/tree/master/research/deeplab).
+
+The dataset is derived from the [Pascal-Part](http://roozbehm.info/pascal-parts/pascal-parts.html) proposed in Chen et al., "Detect What You Can: Detecting and Representing Objects using Holistic Models and Body Parts", CVPR 2014.
+
+We also acknowledge the work of Zhao et al. "Multi-class Part Parsing with Joint Boundary-Semantic Awareness", ICCV 2019, for providing the 58 labels split (Pascal-Part-58).
 
 Remember to cite also their work if you use this code.
 
