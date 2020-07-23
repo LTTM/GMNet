@@ -12,7 +12,12 @@ The webpage of the paper is [here](https://lttm.dei.unipd.it/paper_data/GMNet/)
 
 The full paper can be downloaded from [here](https://lttm.dei.unipd.it/paper_data/GMNet/Michieli_2020_GMNet.pdf)
 
-The slides and the recordings of the presentation will be available soon.
+The slides and the recordings of the presentation are available:<br/>
+[1 min slides](https://umbertomichieli.github.io/download/slides/slides_2020_ECCV_short.pdf)<br/>
+[1 min talk](https://www.youtube.com/watch?v=c_NBnVCOVSk)<br/>
+[10 min slides](https://umbertomichieli.github.io/download/slides/slides_2020_ECCV_long.pdf)<br/>
+[10 min talk](https://www.youtube.com/watch?v=frdEmvLaUVw)<br/>
+
 
 ![teaser](eccv_architecture.png)
 <br/>
