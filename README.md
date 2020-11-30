@@ -36,6 +36,14 @@ We refer to their [installation guidelines](https://github.com/tensorflow/models
 In particular remember to export the python path back to (assuming you are in Deeplab/research/deeplab/):
 > export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/../../../Deeplab
 
+# Known Issue:
+
+Currently, there is a bug in the part-level tfrecords generation. 
+**Temporary Workaround:** while the issue is being investigate you can directly download part-level tfrecords from 
+[here](https://drive.google.com/drive/folders/193qJXouWxtlmp4nU3TgqanRdR_-WqX5h?usp=sharing) and then perform training and evaluation.
+
+
+
 ## Download data and checkpoints
 
 In this project we used two datasets: Pascal-Part-58 and Pascal-Part-108.
